@@ -32,7 +32,6 @@
     line-height: 1.6;
   }
 
-  /* HEADER */
   .header {
     background: linear-gradient(135deg, var(--navy2) 0%, var(--navy3) 100%);
     border-bottom: 3px solid var(--gold);
@@ -52,7 +51,6 @@
   .mission-tag { display: inline-block; background: var(--gold); color: var(--navy); font-size: 10px; font-weight: 800; letter-spacing: 3px; text-transform: uppercase; padding: 4px 12px; border-radius: 2px; }
   .day-tag { display: inline-block; background: var(--navy3); color: var(--gold2); border: 1px solid rgba(212,160,23,0.5); font-size: 10px; font-weight: 800; letter-spacing: 2px; text-transform: uppercase; padding: 4px 12px; border-radius: 2px; }
 
-  /* SCORE BAR */
   .score-bar {
     background: var(--navy3);
     padding: 14px 48px;
@@ -74,7 +72,6 @@
   .sb-tick { position: absolute; top: -4px; width: 2px; height: 16px; background: var(--gold2); border-radius: 1px; }
   .sb-targets { display: flex; justify-content: space-between; font-size: 9px; color: var(--grey); margin-top: 4px; }
 
-  /* COUNTDOWN BAR */
   .countdown-bar {
     background: linear-gradient(135deg, #0c1a0c 0%, #0f2615 100%);
     border-bottom: 1px solid rgba(34,197,94,0.2);
@@ -89,12 +86,10 @@
   .cd-target { font-size: 13px; color: var(--grey); }
   .cd-target strong { color: var(--gold2); }
 
-  /* LAYOUT */
   .page { max-width: 1100px; margin: 0 auto; padding: 40px 48px 80px; }
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
   .grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
 
-  /* CARDS */
   .card {
     background: var(--navy2);
     border: 1px solid rgba(212,160,23,0.15);
@@ -112,7 +107,6 @@
   .card-title.red { color: var(--red); }
   .card-title.green { color: var(--green); }
 
-  /* URGENT ALERT */
   .alert-urgent {
     background: rgba(239,68,68,0.1);
     border: 2px solid rgba(239,68,68,0.5);
@@ -124,7 +118,6 @@
   .alert-urgent-title { font-size: 20px; font-weight: 800; color: var(--white); margin-bottom: 8px; }
   .alert-urgent-sub { font-size: 13px; color: rgba(240,244,255,0.75); line-height: 1.7; }
 
-  /* PIVOT CARD */
   .pivot-card {
     background: linear-gradient(135deg, #0c2a1a 0%, #0f3322 100%);
     border: 2px solid var(--green);
@@ -139,7 +132,6 @@
   .pivot-title { font-size: 22px; font-weight: 800; color: var(--white); line-height: 1.3; margin-bottom: 6px; }
   .pivot-sub { font-size: 13px; color: rgba(240,244,255,0.7); }
 
-  /* SECTION TITLE */
   .section-title {
     font-size: 10px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase;
     color: var(--gold); margin: 36px 0 16px;
@@ -147,7 +139,6 @@
   }
   .section-title::after { content: ''; flex: 1; height: 1px; background: rgba(212,160,23,0.2); }
 
-  /* KPI GRID */
   .kpi-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
   .kpi { background: rgba(255,255,255,0.04); border-radius: 8px; padding: 18px 16px; text-align: center; border: 1px solid rgba(212,160,23,0.1); }
   .kpi-val { font-size: 26px; font-weight: 800; color: var(--gold2); }
@@ -157,7 +148,6 @@
   .kpi-lbl { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--grey); margin-top: 5px; }
   .kpi-sub { font-size: 11px; color: var(--grey); margin-top: 4px; }
 
-  /* DEBT TABLE */
   .debt-table { width: 100%; border-collapse: collapse; }
   .debt-table th { text-align: left; font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: var(--grey); padding: 0 12px 12px; border-bottom: 1px solid rgba(255,255,255,0.08); }
   .debt-table td { padding: 13px 12px; font-size: 13px; border-bottom: 1px solid rgba(255,255,255,0.05); vertical-align: middle; }
@@ -180,7 +170,6 @@
   .debt-bar-fill { height: 100%; border-radius: 3px; }
   .debt-pct { font-size: 10px; color: var(--grey); font-weight: 700; }
 
-  /* TIMELINE */
   .timeline { display: flex; flex-direction: column; gap: 0; position: relative; }
   .timeline::before { content: ''; position: absolute; left: 18px; top: 10px; bottom: 10px; width: 2px; background: linear-gradient(180deg, var(--gold) 0%, rgba(212,160,23,0.1) 100%); }
   .tl-item { display: flex; gap: 20px; padding: 12px 0; position: relative; }
@@ -191,7 +180,6 @@
   .tl-event { font-size: 13px; font-weight: 600; }
   .tl-score { font-size: 11px; color: var(--grey); margin-top: 2px; }
 
-  /* CHECKLIST */
   .checklist { list-style: none; display: flex; flex-direction: column; gap: 10px; }
   .checklist li { display: flex; align-items: flex-start; gap: 12px; font-size: 14px; color: var(--white); line-height: 1.4; }
   .checklist li .box { width: 20px; height: 20px; border: 2px solid var(--gold); border-radius: 4px; flex-shrink: 0; margin-top: 1px; }
@@ -200,13 +188,11 @@
   .tag-week { background: rgba(245,158,11,0.2); color: var(--amber); border: 1px solid rgba(245,158,11,0.3); }
   .tag-green { background: rgba(34,197,94,0.2); color: var(--green); border: 1px solid rgba(34,197,94,0.3); }
 
-  /* RULES */
   .rules { display: flex; flex-direction: column; gap: 8px; }
   .rule { display: flex; align-items: flex-start; gap: 10px; font-size: 13px; line-height: 1.4; }
   .rule-icon { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
   .rule strong { color: var(--gold2); }
 
-  /* SPLIT FLOW */
   .split-flow { display: flex; flex-direction: column; gap: 0; }
   .split-source { text-align: center; background: var(--gold); color: var(--navy); font-weight: 800; font-size: 14px; padding: 12px; border-radius: 8px 8px 0 0; }
   .split-arrow { text-align: center; color: var(--gold); font-size: 20px; line-height: 1; padding: 4px 0; }
@@ -216,7 +202,6 @@
   .split-pct { font-weight: 700; color: var(--gold2); font-size: 15px; }
   .split-dest { color: var(--grey); font-size: 11px; margin-top: 1px; }
 
-  /* ACCOUNT ROWS */
   .account-row { display: flex; flex-direction: column; gap: 10px; }
   .account-item { display: flex; align-items: center; justify-content: space-between; background: rgba(255,255,255,0.04); border-radius: 8px; padding: 12px 16px; border-left: 3px solid var(--gold); }
   .account-item.red-item { border-left-color: var(--red); }
@@ -231,13 +216,11 @@
   .badge-amber { background: rgba(245,158,11,0.15); color: var(--amber); }
   .badge-grey { background: rgba(136,153,187,0.15); color: var(--grey); }
 
-  /* CUT ITEMS */
   .cut-item { display: flex; justify-content: space-between; align-items: center; background: rgba(239,68,68,0.06); border-left: 3px solid var(--red); border-radius: 6px; padding: 10px 14px; margin-bottom: 8px; }
   .cut-name { font-size: 13px; font-weight: 600; }
   .cut-sub { font-size: 11px; color: var(--grey); }
   .cut-save { font-size: 15px; font-weight: 800; color: var(--green); }
 
-  /* ENDGAME */
   .endgame {
     background: linear-gradient(135deg, #0f2040 0%, #1a3a6a 100%);
     border: 1px solid rgba(212,160,23,0.3);
@@ -252,7 +235,6 @@
   .endgame-desc { font-size: 16px; font-weight: 600; color: var(--white); margin-top: 20px; max-width: 600px; margin-left: auto; margin-right: auto; line-height: 1.5; }
   .endgame-desc em { color: var(--gold2); font-style: normal; }
 
-  /* SIDE HUSTLE */
   .hustle-card { background: rgba(255,255,255,0.03); border-radius: 10px; padding: 20px; border: 1px solid rgba(212,160,23,0.1); margin-bottom: 12px; }
   .hustle-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; }
   .hustle-name { font-size: 15px; font-weight: 800; color: var(--white); }
@@ -263,7 +245,6 @@
   .hs-soon { background: rgba(245,158,11,0.2); color: var(--amber); border: 1px solid rgba(245,158,11,0.4); }
   .hs-later { background: rgba(136,153,187,0.15); color: var(--grey); border: 1px solid rgba(136,153,187,0.3); }
 
-  /* METRIC BLOCK */
   .metric-block {
     background: linear-gradient(135deg, var(--navy3) 0%, #1a3a6a 100%);
     border: 2px solid rgba(212,160,23,0.4);
@@ -278,7 +259,6 @@
   .metric-question em { color: var(--gold2); font-style: normal; }
   .metric-sub { font-size: 13px; color: var(--grey); }
 
-  /* PHONE SCRIPT */
   .phone-box { background: rgba(59,130,246,0.08); border: 1px solid rgba(59,130,246,0.3); border-radius: 10px; padding: 18px 20px; margin-bottom: 12px; }
   .phone-label { font-size: 10px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
   .phone-number { font-size: 16px; font-weight: 800; color: var(--white); margin-bottom: 6px; }
@@ -286,15 +266,79 @@
 
   /* MOBILE */
   @media (max-width: 768px) {
-    .header { padding: 20px 20px 16px; flex-direction: column; align-items: flex-start; gap: 12px; }
+    .header { padding: 20px 16px 16px; flex-direction: column; align-items: flex-start; gap: 10px; }
+    .brand-name { font-size: 26px; }
+    .brand-sub { font-size: 10px; letter-spacing: 2px; }
     .header-right { align-items: flex-start; }
-    .score-bar { padding: 12px 20px; gap: 16px; }
-    .countdown-bar { padding: 10px 20px; flex-direction: column; align-items: flex-start; gap: 6px; }
-    .page { padding: 24px 16px 60px; }
-    .grid-2, .grid-3 { grid-template-columns: 1fr; }
-    .debt-table { font-size: 11px; }
-    .debt-table td, .debt-table th { padding: 8px 6px; }
-    .endgame-number { font-size: 48px; }
+    .date-value { font-size: 18px; }
+
+    .score-bar { padding: 12px 16px; gap: 12px; }
+    .sb-divider { display: none; }
+    .sb-track { min-width: 100%; order: 10; width: 100%; }
+    .sb-targets { flex-wrap: wrap; gap: 4px; }
+    .sb-targets span { font-size: 9px; }
+    .sb-score-num { font-size: 22px; }
+
+    .countdown-bar { padding: 10px 16px; flex-direction: column; align-items: flex-start; gap: 4px; }
+    .cd-timer { font-size: 17px; }
+    .cd-target { font-size: 11px; }
+
+    .page { padding: 16px 12px 60px; }
+    .grid-2, .grid-3 { grid-template-columns: 1fr !important; }
+    .card { padding: 18px 14px; overflow-x: auto; }
+    .card-full { overflow-x: auto; }
+
+    .alert-urgent { padding: 16px 16px; }
+    .alert-urgent-title { font-size: 16px; }
+    .alert-urgent-sub { font-size: 12px; }
+
+    .pivot-card { padding: 20px 16px; }
+    .pivot-title { font-size: 17px; }
+    .pivot-card::after { font-size: 60px; }
+
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .kpi { padding: 14px 10px; }
+    .kpi-val { font-size: 20px; }
+    .kpi-lbl { font-size: 9px; }
+
+    /* 60-day calendar stacks on mobile */
+    [style*="grid-template-columns:1fr 1fr"] { display: flex !important; flex-direction: column !important; gap: 20px !important; }
+
+    /* Debt table scrolls horizontally */
+    .debt-table { min-width: 540px; }
+
+    .split-item { flex-wrap: wrap; gap: 6px; }
+    .split-pct { font-size: 13px; }
+    .split-source { font-size: 13px; }
+
+    .tl-month { min-width: 70px; font-size: 10px; }
+    .tl-event { font-size: 12px; }
+    .tl-score { font-size: 10px; }
+    .timeline::before { left: 14px; }
+    .tl-dot { width: 16px; height: 16px; }
+
+    .hustle-header { flex-direction: column; gap: 4px; }
+    .hustle-earn { font-size: 16px; }
+
+    .phone-box { padding: 12px 14px; }
+    .phone-number { font-size: 14px; }
+    .phone-script { font-size: 11px; }
+
+    .cut-item { flex-wrap: wrap; gap: 6px; }
+
+    .endgame { padding: 28px 16px; }
+    .endgame-number { font-size: 44px; }
+    .endgame-desc { font-size: 13px; }
+
+    .metric-block { padding: 24px 16px; }
+    .metric-question { font-size: 16px; }
+
+    .section-title { margin: 24px 0 12px; font-size: 9px; }
+
+    .checklist li { font-size: 13px; }
+    .tag { font-size: 8px; padding: 2px 5px; }
+
+    .account-item { flex-wrap: wrap; gap: 8px; }
   }
 
   /* PRINT */
@@ -319,7 +363,6 @@
 </head>
 <body>
 
-<!-- HEADER -->
 <div class="header">
   <div class="brand">
     <div class="brand-name">Gabriel <span>Garcia</span></div>
@@ -335,25 +378,15 @@
   </div>
 </div>
 
-<!-- CREDIT SCORE BAR -->
 <div class="score-bar">
   <div class="sb-label">FICO Score 8</div>
-  <div class="sb-score">
-    <div class="sb-score-num">570</div>
-    <div class="sb-score-bureau">TransUnion</div>
-  </div>
-  <div class="sb-score">
-    <div class="sb-score-num">563</div>
-    <div class="sb-score-bureau">Experian</div>
-  </div>
-  <div class="sb-score">
-    <div class="sb-score-num">563</div>
-    <div class="sb-score-bureau">Equifax</div>
-  </div>
+  <div class="sb-score"><div class="sb-score-num">570</div><div class="sb-score-bureau">TransUnion</div></div>
+  <div class="sb-score"><div class="sb-score-num">563</div><div class="sb-score-bureau">Experian</div></div>
+  <div class="sb-score"><div class="sb-score-num">563</div><div class="sb-score-bureau">Equifax</div></div>
   <div class="sb-divider"></div>
   <div class="sb-track" style="flex:1">
-    <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--grey);letter-spacing:1px;text-transform:uppercase">
-      <span>300 — Poor</span><span style="color:var(--amber)">580 — Fair</span><span style="color:var(--gold)">670 — Good</span><span style="color:var(--green)">740 — Very Good</span>
+    <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--grey);letter-spacing:1px;text-transform:uppercase;flex-wrap:wrap;gap:4px">
+      <span>300 — Poor</span><span style="color:var(--amber)">580 — Fair</span><span style="color:var(--gold)">670 — Good</span><span style="color:var(--green)">740+ Very Good</span>
     </div>
     <div class="sb-track-bar">
       <div class="sb-fill" style="width:100%"></div>
@@ -361,19 +394,15 @@
     </div>
     <div class="sb-targets">
       <span style="color:var(--red)">▲ NOW: 563</span>
-      <span style="color:var(--amber)">Target Aug: 600+</span>
-      <span style="color:var(--gold)">Target Dec: 650+</span>
-      <span style="color:var(--green)">Target Jun '27: 680+</span>
+      <span style="color:var(--amber)">Aug: 600+</span>
+      <span style="color:var(--gold)">Dec: 650+</span>
+      <span style="color:var(--green)">Jun '27: 680+</span>
     </div>
   </div>
   <div class="sb-divider"></div>
-  <div class="sb-score">
-    <div class="sb-score-num target">680+</div>
-    <div class="sb-score-bureau">Target Jun '27</div>
-  </div>
+  <div class="sb-score"><div class="sb-score-num target">680+</div><div class="sb-score-bureau">Target Jun '27</div></div>
 </div>
 
-<!-- COUNTDOWN TO JUNE 10 -->
 <div class="countdown-bar">
   <div class="cd-left">
     <div class="cd-label">The Pivot Point</div>
@@ -384,7 +413,6 @@
 
 <div class="page">
 
-<!-- ACTIVE SITUATIONS -->
 <div class="alert-urgent">
   <div class="alert-urgent-label">Active Situations — May 26, 2026</div>
   <div class="alert-urgent-title">$139.11 in account. 3 items need attention before June 5.</div>
@@ -395,61 +423,26 @@
   </div>
 </div>
 
-<!-- THE JUNE 10 PIVOT -->
 <div class="pivot-card">
   <div class="pivot-label">The Single Biggest Lever In Your Financial Life Right Now</div>
   <div class="pivot-title">June 10 — No more rent. $1,000/month stays in your pocket.</div>
   <div class="pivot-sub">Every plan in this document builds from that date. Before June 10 you're treading water. After June 10 you're fighting forward.</div>
 </div>
 
-<!-- KPI SNAPSHOT -->
 <div class="section-title">Financial Snapshot</div>
 <div class="card card-full">
   <div class="kpi-grid">
-    <div class="kpi">
-      <div class="kpi-val amber">$1,345</div>
-      <div class="kpi-lbl">Bi-Weekly Check</div>
-      <div class="kpi-sub">Next: June 5, 2026</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-val amber">$2,691</div>
-      <div class="kpi-lbl">Monthly Take-Home</div>
-      <div class="kpi-sub">W-2 Employee</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-val red">$139</div>
-      <div class="kpi-lbl">Account Balance</div>
-      <div class="kpi-sub">T-Mobile $111.80 hits May 28</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-val red">$6,477</div>
-      <div class="kpi-lbl">Derogatory Debt</div>
-      <div class="kpi-sub">Charge-offs + Collection</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-val amber">$9,500</div>
-      <div class="kpi-lbl">Auto Loan Balance</div>
-      <div class="kpi-sub">Ally Financial · $515/mo</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-val green">$9,671</div>
-      <div class="kpi-lbl">Student Loans</div>
-      <div class="kpi-sub">Deferred — do not touch</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-val amber">46%</div>
-      <div class="kpi-lbl">Avant Utilization</div>
-      <div class="kpi-sub">$137 of $300 · Fix to 10%</div>
-    </div>
-    <div class="kpi">
-      <div class="kpi-val green">$1,200+</div>
-      <div class="kpi-lbl">Post-June 10 Surplus</div>
-      <div class="kpi-sub">Available for debt payoff</div>
-    </div>
+    <div class="kpi"><div class="kpi-val amber">$1,345</div><div class="kpi-lbl">Bi-Weekly Check</div><div class="kpi-sub">Next: June 5, 2026</div></div>
+    <div class="kpi"><div class="kpi-val amber">$2,691</div><div class="kpi-lbl">Monthly Take-Home</div><div class="kpi-sub">W-2 Employee</div></div>
+    <div class="kpi"><div class="kpi-val red">$139</div><div class="kpi-lbl">Account Balance</div><div class="kpi-sub">T-Mobile $111.80 hits May 28</div></div>
+    <div class="kpi"><div class="kpi-val red">$6,477</div><div class="kpi-lbl">Derogatory Debt</div><div class="kpi-sub">Charge-offs + Collection</div></div>
+    <div class="kpi"><div class="kpi-val amber">$9,500</div><div class="kpi-lbl">Auto Loan Balance</div><div class="kpi-sub">Ally Financial · $515/mo</div></div>
+    <div class="kpi"><div class="kpi-val green">$9,671</div><div class="kpi-lbl">Student Loans</div><div class="kpi-sub">Deferred — do not touch</div></div>
+    <div class="kpi"><div class="kpi-val amber">46%</div><div class="kpi-lbl">Avant Utilization</div><div class="kpi-sub">$137 of $300 · Fix to 10%</div></div>
+    <div class="kpi"><div class="kpi-val green">$1,200+</div><div class="kpi-lbl">Post-June 10 Surplus</div><div class="kpi-sub">Available for debt payoff</div></div>
   </div>
 </div>
 
-<!-- PAYCHECK PLANS -->
 <div class="section-title">Paycheck Allocations — June 5 &amp; June 19</div>
 <div class="grid-2">
   <div class="card">
@@ -459,50 +452,32 @@
       <div class="split-arrow">↓</div>
       <div class="split-items">
         <div class="split-item" style="background:rgba(239,68,68,0.08);border-left:3px solid var(--red)">
-          <div>
-            <div style="font-weight:700;color:var(--red)">Ally Car Payment — FIRST WIRE</div>
-            <div class="split-dest">6 days overdue — pay this before anything else</div>
-          </div>
+          <div><div style="font-weight:700;color:var(--red)">Ally Car Payment — FIRST WIRE</div><div class="split-dest">6 days overdue — pay this before anything else</div></div>
           <div class="split-pct" style="color:var(--red)">$515</div>
         </div>
         <div class="split-item">
-          <div>
-            <div style="font-weight:700">Auto Insurance</div>
-            <div class="split-dest">Responsive Auto FL — pay June 6</div>
-          </div>
+          <div><div style="font-weight:700">Auto Insurance</div><div class="split-dest">Responsive Auto FL — pay June 6</div></div>
           <div class="split-pct">$251</div>
         </div>
         <div class="split-item">
-          <div>
-            <div style="font-weight:700">Comcast Internet</div>
-            <div class="split-dest">Pay any overdue balance</div>
-          </div>
+          <div><div style="font-weight:700">Comcast Internet</div><div class="split-dest">Pay any overdue balance</div></div>
           <div class="split-pct">$66</div>
         </div>
         <div class="split-item" style="background:rgba(34,197,94,0.08)">
-          <div>
-            <div style="font-weight:700;color:var(--green)">Account Floor — DO NOT TOUCH</div>
-            <div class="split-dest" style="color:var(--green)">Kills the DailyPay cycle. Protect this forever.</div>
-          </div>
+          <div><div style="font-weight:700;color:var(--green)">Account Floor — DO NOT TOUCH</div><div class="split-dest" style="color:var(--green)">Kills the DailyPay cycle. Protect this forever.</div></div>
           <div class="split-pct" style="color:var(--green)">$300</div>
         </div>
         <div class="split-item">
-          <div>
-            <div style="font-weight:700">Avant Card → Pay to $30</div>
-            <div class="split-dest">46% → 10% utilization → instant score boost</div>
-          </div>
+          <div><div style="font-weight:700">Avant Card → Pay to $30</div><div class="split-dest">46% → 10% utilization → instant score boost</div></div>
           <div class="split-pct">$107</div>
         </div>
         <div class="split-item">
-          <div>
-            <div style="font-weight:700">Groceries + Gas (2 weeks)</div>
-            <div class="split-dest">Debit card only — no cash, no DoorDash</div>
-          </div>
+          <div><div style="font-weight:700">Groceries + Gas (2 weeks)</div><div class="split-dest">Debit card only — no cash, no DoorDash</div></div>
           <div class="split-pct">$107</div>
         </div>
       </div>
       <div style="margin-top:10px;padding:8px 12px;background:rgba(245,158,11,0.08);border-radius:6px;font-size:12px;color:var(--grey)">
-        After June 5 allocation: <strong style="color:var(--amber)">~$0 buffer above floor</strong> · T-Mobile arrangement 2/2 ($111.81) hits June 11 — must come from June 19 check
+        After June 5 allocation: <strong style="color:var(--amber)">~$0 buffer above floor</strong> · T-Mobile 2/2 ($111.81) hits June 11 — comes from June 19 check
       </div>
     </div>
   </div>
@@ -514,38 +489,23 @@
       <div class="split-arrow">↓</div>
       <div class="split-items">
         <div class="split-item" style="background:rgba(245,158,11,0.08)">
-          <div>
-            <div style="font-weight:700;color:var(--amber)">T-Mobile Regular Bill</div>
-            <div class="split-dest">Due June 16 — pay immediately on arrival</div>
-          </div>
+          <div><div style="font-weight:700;color:var(--amber)">T-Mobile Regular Bill</div><div class="split-dest">Due June 16 — pay immediately on arrival</div></div>
           <div class="split-pct" style="color:var(--amber)">$249</div>
         </div>
         <div class="split-item">
-          <div>
-            <div style="font-weight:700">Ally Car Payment (July)</div>
-            <div class="split-dest">Due July 20 — set aside now, pay on time</div>
-          </div>
+          <div><div style="font-weight:700">Ally Car Payment (July)</div><div class="split-dest">Due July 20 — set aside now, pay on time</div></div>
           <div class="split-pct">$515</div>
         </div>
         <div class="split-item" style="background:rgba(34,197,94,0.08)">
-          <div>
-            <div style="font-weight:700;color:var(--green)">LVNV Settlement Fund</div>
-            <div class="split-dest">Building to $683 — target: pay for delete by July</div>
-          </div>
+          <div><div style="font-weight:700;color:var(--green)">LVNV Settlement Fund</div><div class="split-dest">Building to $683 — target: pay for delete by July</div></div>
           <div class="split-pct" style="color:var(--green)">$350</div>
         </div>
         <div class="split-item">
-          <div>
-            <div style="font-weight:700">Groceries + Gas</div>
-            <div class="split-dest">Debit card only</div>
-          </div>
+          <div><div style="font-weight:700">Groceries + Gas</div><div class="split-dest">Debit card only</div></div>
           <div class="split-pct">$150</div>
         </div>
         <div class="split-item">
-          <div>
-            <div style="font-weight:700">Subscriptions (1 Disney + Comcast)</div>
-            <div class="split-dest">Auto-pay — duplicate Disney already cancelled</div>
-          </div>
+          <div><div style="font-weight:700">Subscriptions (1 Disney + Comcast)</div><div class="split-dest">Auto-pay — duplicate Disney already cancelled</div></div>
           <div class="split-pct">$66</div>
         </div>
       </div>
@@ -556,7 +516,6 @@
   </div>
 </div>
 
-<!-- 2-MONTH PAYMENT CALENDAR -->
 <div class="section-title">60-Day Payment Calendar — Every Dollar, Every Date</div>
 <div class="card card-full">
   <div class="card-title">May 26 → July 31 — What's Due When</div>
@@ -571,12 +530,12 @@
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(239,68,68,0.08);border-radius:8px;border-left:3px solid var(--red)">
           <div style="font-size:11px;font-weight:800;color:var(--red);white-space:nowrap;min-width:60px">MAY 30</div>
-          <div style="flex:1;font-size:13px">Ally car payment — <strong style="color:var(--red)">OVERDUE — pay first</strong></div>
+          <div style="flex:1;font-size:13px">Ally car — <strong style="color:var(--red)">OVERDUE — pay first</strong></div>
           <div style="font-weight:700;color:var(--red)">$515.19</div>
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border-left:3px solid var(--gold)">
           <div style="font-size:11px;font-weight:800;color:var(--gold);white-space:nowrap;min-width:60px">JUNE 5</div>
-          <div style="flex:1;font-size:13px">Paycheck $1,345.41 — auto insurance + floor</div>
+          <div style="flex:1;font-size:13px">Paycheck — insurance + $300 floor</div>
           <div style="font-weight:700;color:var(--green)">+$1,345</div>
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border-left:3px solid var(--gold)">
@@ -586,22 +545,22 @@
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border-left:3px solid var(--gold)">
           <div style="font-size:11px;font-weight:800;color:var(--gold);white-space:nowrap;min-width:60px">JUNE 10</div>
-          <div style="flex:1;font-size:13px"><strong style="color:var(--green)">RENT ENDS — $1,000/month freed forever</strong></div>
+          <div style="flex:1;font-size:13px"><strong style="color:var(--green)">RENT ENDS — $1,000/month freed</strong></div>
           <div style="font-weight:700;color:var(--green)">$0 rent</div>
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(245,158,11,0.08);border-radius:8px;border-left:3px solid var(--amber)">
           <div style="font-size:11px;font-weight:800;color:var(--amber);white-space:nowrap;min-width:60px">JUNE 11</div>
-          <div style="flex:1;font-size:13px">T-Mobile arrangement <strong>2/2</strong> — final payment</div>
+          <div style="flex:1;font-size:13px">T-Mobile arrangement <strong>2/2</strong> — final</div>
           <div style="font-weight:700;color:var(--amber)">$111.81</div>
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(245,158,11,0.08);border-radius:8px;border-left:3px solid var(--amber)">
           <div style="font-size:11px;font-weight:800;color:var(--amber);white-space:nowrap;min-width:60px">JUNE 16</div>
-          <div style="flex:1;font-size:13px">T-Mobile regular bill — back to normal billing</div>
+          <div style="flex:1;font-size:13px">T-Mobile regular bill</div>
           <div style="font-weight:700;color:var(--amber)">$248.91</div>
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border-left:3px solid var(--gold)">
           <div style="font-size:11px;font-weight:800;color:var(--gold);white-space:nowrap;min-width:60px">JUNE 19</div>
-          <div style="flex:1;font-size:13px">Paycheck $1,345.41 — first offense paycheck</div>
+          <div style="flex:1;font-size:13px">Paycheck — first offense paycheck</div>
           <div style="font-weight:700;color:var(--green)">+$1,345</div>
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border-left:3px solid var(--grey)">
@@ -616,7 +575,7 @@
       <div style="display:flex;flex-direction:column;gap:8px">
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(34,197,94,0.08);border-radius:8px;border-left:3px solid var(--green)">
           <div style="font-size:11px;font-weight:800;color:var(--green);white-space:nowrap;min-width:60px">JULY 3</div>
-          <div style="flex:1;font-size:13px">Paycheck $1,345.41 — LVNV settlement target window</div>
+          <div style="flex:1;font-size:13px">Paycheck — LVNV settlement target window</div>
           <div style="font-weight:700;color:var(--green)">+$1,345</div>
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border-left:3px solid var(--gold)">
@@ -641,7 +600,7 @@
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(34,197,94,0.08);border-radius:8px;border-left:3px solid var(--green)">
           <div style="font-size:11px;font-weight:800;color:var(--green);white-space:nowrap;min-width:60px">JULY 17</div>
-          <div style="flex:1;font-size:13px">Paycheck $1,345.41 — second July check</div>
+          <div style="flex:1;font-size:13px">Paycheck — second July check</div>
           <div style="font-weight:700;color:var(--green)">+$1,345</div>
         </div>
         <div style="display:flex;align-items:center;gap:12px;padding:10px 14px;background:rgba(255,255,255,0.04);border-radius:8px;border-left:3px solid var(--grey)">
@@ -658,13 +617,12 @@
     </div>
   </div>
   <div style="margin-top:16px;padding:12px 16px;background:rgba(212,160,23,0.08);border-radius:8px;font-size:12px;color:var(--grey);display:flex;gap:24px;flex-wrap:wrap">
-    <span><strong style="color:var(--gold2)">Total T-Mobile June exposure:</strong> $111.81 + $248.91 = <strong style="color:var(--white)">$360.72</strong></span>
-    <span><strong style="color:var(--gold2)">June total fixed outflow:</strong> ~$1,770</span>
+    <span><strong style="color:var(--gold2)">T-Mobile June total:</strong> $111.81 + $248.91 = <strong style="color:var(--white)">$360.72</strong></span>
+    <span><strong style="color:var(--gold2)">June fixed outflow:</strong> ~$1,770</span>
     <span><strong style="color:var(--gold2)">July target:</strong> LVNV deleted · Score 600+ · $300 floor protected</span>
   </div>
 </div>
 
-<!-- DEROGATORY ITEMS -->
 <div class="section-title">Derogatory Account Kill Order</div>
 <div class="card card-full red-card">
   <div class="card-title red">Charge-Offs + Collection — The Score Killers</div>
@@ -691,11 +649,7 @@
         <td style="color:var(--red)">TU · EXP · EQ</td>
         <td style="font-size:12px"><span style="color:var(--gold2);font-weight:700">Pay-for-Delete.</span> Call (866) 464-1183. Get deletion in writing before paying $1.</td>
         <td style="color:var(--green)">June–July 2026</td>
-        <td>
-          <div class="debt-pct">HIGH</div>
-          <div class="debt-bar-bg"><div class="debt-bar-fill" style="width:100%;background:var(--red)"></div></div>
-          <div style="font-size:10px;color:var(--grey);margin-top:3px">+30–50 pts</div>
-        </td>
+        <td><div class="debt-pct">HIGH</div><div class="debt-bar-bg"><div class="debt-bar-fill" style="width:100%;background:var(--red)"></div></div><div style="font-size:10px;color:var(--grey);margin-top:3px">+30–50 pts</div></td>
       </tr>
       <tr>
         <td><div class="priority-badge" style="background:var(--amber);color:var(--navy)">2</div></td>
@@ -707,11 +661,7 @@
         <td style="color:var(--amber)">TU · EXP · EQ</td>
         <td style="font-size:12px"><span style="color:var(--gold2);font-weight:700">Pay down to $30</span> on June 5. Use it monthly for one charge, pay in full. Never miss.</td>
         <td style="color:var(--green)">June 5, 2026</td>
-        <td>
-          <div class="debt-pct">QUICK WIN</div>
-          <div class="debt-bar-bg"><div class="debt-bar-fill" style="width:80%;background:var(--amber)"></div></div>
-          <div style="font-size:10px;color:var(--grey);margin-top:3px">+15–20 pts</div>
-        </td>
+        <td><div class="debt-pct">QUICK WIN</div><div class="debt-bar-bg"><div class="debt-bar-fill" style="width:80%;background:var(--amber)"></div></div><div style="font-size:10px;color:var(--grey);margin-top:3px">+15–20 pts</div></td>
       </tr>
       <tr>
         <td><div class="priority-badge hold">3</div></td>
@@ -721,13 +671,9 @@
         </td>
         <td><div class="balance-amount" style="color:var(--amber)">$512</div></td>
         <td style="color:var(--grey)">Experian only</td>
-        <td style="font-size:12px">Call Affirm (855) 423-3729. Offer $200–250 as settlement. Demand deletion from Experian.</td>
+        <td style="font-size:12px">Call Affirm (855) 423-3729. Offer $200–250. Demand deletion from Experian.</td>
         <td style="color:var(--grey)">Aug–Sep 2026</td>
-        <td>
-          <div class="debt-pct">MEDIUM</div>
-          <div class="debt-bar-bg"><div class="debt-bar-fill" style="width:50%;background:var(--grey)"></div></div>
-          <div style="font-size:10px;color:var(--grey);margin-top:3px">+10–15 pts (EXP)</div>
-        </td>
+        <td><div class="debt-pct">MEDIUM</div><div class="debt-bar-bg"><div class="debt-bar-fill" style="width:50%;background:var(--grey)"></div></div><div style="font-size:10px;color:var(--grey);margin-top:3px">+10–15 pts</div></td>
       </tr>
       <tr>
         <td><div class="priority-badge hold">4</div></td>
@@ -739,11 +685,7 @@
         <td style="color:var(--red)">TU · EXP</td>
         <td style="font-size:12px">Call (800) 955-7070. <span style="color:var(--gold2);font-weight:700">Offer $600–800 (40–45¢ on dollar).</span> Demand pay-for-delete in writing first.</td>
         <td style="color:var(--grey)">Sep–Oct 2026</td>
-        <td>
-          <div class="debt-pct">HIGH</div>
-          <div class="debt-bar-bg"><div class="debt-bar-fill" style="width:85%;background:var(--red)"></div></div>
-          <div style="font-size:10px;color:var(--grey);margin-top:3px">+20–35 pts</div>
-        </td>
+        <td><div class="debt-pct">HIGH</div><div class="debt-bar-bg"><div class="debt-bar-fill" style="width:85%;background:var(--red)"></div></div><div style="font-size:10px;color:var(--grey);margin-top:3px">+20–35 pts</div></td>
       </tr>
       <tr>
         <td><div class="priority-badge hold">5</div></td>
@@ -755,11 +697,7 @@
         <td style="color:var(--red)">TU · EXP · EQ</td>
         <td style="font-size:12px">Still owned by Discover. <span style="color:var(--gold2);font-weight:700">Offer $800–1,200 (23–35¢ on dollar).</span> Do NOT pay without written settlement + deletion agreement.</td>
         <td style="color:var(--grey)">Nov–Dec 2026</td>
-        <td>
-          <div class="debt-pct">CRITICAL</div>
-          <div class="debt-bar-bg"><div class="debt-bar-fill" style="width:100%;background:var(--red)"></div></div>
-          <div style="font-size:10px;color:var(--grey);margin-top:3px">+25–40 pts if deleted</div>
-        </td>
+        <td><div class="debt-pct">CRITICAL</div><div class="debt-bar-bg"><div class="debt-bar-fill" style="width:100%;background:var(--red)"></div></div><div style="font-size:10px;color:var(--grey);margin-top:3px">+25–40 pts if deleted</div></td>
       </tr>
     </tbody>
   </table>
@@ -769,26 +707,17 @@
   </div>
 </div>
 
-<!-- ACCOUNTS TO PROTECT -->
 <div class="section-title">Open Accounts — Protect These</div>
 <div class="grid-2">
   <div class="card green-card">
     <div class="card-title green">Keep Current — Never Miss</div>
     <div class="account-row">
       <div class="account-item green-item">
-        <div>
-          <div class="account-name">Ally Financial Auto Loan</div>
-          <div class="account-sub">Joint account · Opened Nov 2021 · 72-month term · Fixed rate</div>
-          <div class="account-balance">$9,271 remaining · ~3 years left</div>
-        </div>
+        <div><div class="account-name">Ally Financial Auto Loan</div><div class="account-sub">Joint account · Opened Nov 2021 · 72-month term</div><div class="account-balance">$9,271 remaining · ~3 years left</div></div>
         <div class="account-badge badge-active">PROTECT</div>
       </div>
       <div class="account-item green-item">
-        <div>
-          <div class="account-name">Avant Card (Web Bank)</div>
-          <div class="account-sub">Only open revolving credit · Opened Mar 2026 · 35.99% APR</div>
-          <div class="account-balance">Target: keep balance at $30 or less. Pay in full monthly.</div>
-        </div>
+        <div><div class="account-name">Avant Card (Web Bank)</div><div class="account-sub">Only open revolving credit · Opened Mar 2026 · 35.99% APR</div><div class="account-balance">Target: keep balance at $30 or less. Pay in full monthly.</div></div>
         <div class="account-badge badge-active">MANAGE</div>
       </div>
     </div>
@@ -797,162 +726,74 @@
     <div class="card-title" style="color:var(--blue)">Student Loans — Leave Alone</div>
     <div class="account-row">
       <div class="account-item" style="border-left-color:var(--blue)">
-        <div>
-          <div class="account-name">Dept of Ed / Aidvantage — Loan 1</div>
-          <div class="account-sub">Opened Sep 2025 · Deferred · Payment deferred · Fixed rate</div>
-          <div class="account-balance">$3,500 balance — reporting "current, pays as agreed"</div>
-        </div>
+        <div><div class="account-name">Dept of Ed / Aidvantage — Loan 1</div><div class="account-sub">Opened Sep 2025 · Deferred · Fixed rate</div><div class="account-balance">$3,500 — reporting "current, pays as agreed"</div></div>
         <div class="account-badge" style="background:rgba(59,130,246,0.15);color:var(--blue)">DEFERRED</div>
       </div>
       <div class="account-item" style="border-left-color:var(--blue)">
-        <div>
-          <div class="account-name">Dept of Ed / Aidvantage — Loan 2</div>
-          <div class="account-sub">Opened Sep 2025 · Deferred · Payment deferred · Fixed rate</div>
-          <div class="account-balance">$6,171 balance — reporting "current, pays as agreed"</div>
-        </div>
+        <div><div class="account-name">Dept of Ed / Aidvantage — Loan 2</div><div class="account-sub">Opened Sep 2025 · Deferred · Fixed rate</div><div class="account-balance">$6,171 — reporting "current, pays as agreed"</div></div>
         <div class="account-badge" style="background:rgba(59,130,246,0.15);color:var(--blue)">DEFERRED</div>
       </div>
     </div>
     <div style="margin-top:12px;font-size:11px;color:var(--grey);padding:8px 12px;background:rgba(59,130,246,0.06);border-radius:6px">
-      These loans are <strong style="color:var(--white)">not hurting your score</strong> — they report as current and deferred. Do not make early payments. Every dollar goes to the charge-offs first.
+      These loans are <strong style="color:var(--white)">not hurting your score</strong> — they report as current and deferred. Do not make early payments. Charge-offs first, always.
     </div>
   </div>
 </div>
 
-<!-- CREDIT SCORE TIMELINE -->
 <div class="section-title">Credit Score Roadmap</div>
 <div class="card card-full">
   <div class="card-title">Month-by-Month Progression — What Gets You There</div>
   <div class="grid-2">
     <div class="timeline">
-      <div class="tl-item">
-        <div class="tl-dot now"></div>
-        <div>
-          <div class="tl-month">MAY 26 NOW</div>
-          <div class="tl-event">Starting line: 563 FICO</div>
-          <div class="tl-score">3 charge-offs, 1 collection, 46% utilization on Avant</div>
-        </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div>
-          <div class="tl-month">JUNE 5</div>
-          <div class="tl-event">Avant paid to $30 → utilization 10%</div>
-          <div class="tl-score">Projected: +15–20 pts → ~580</div>
-        </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div>
-          <div class="tl-month">JULY 2026</div>
-          <div class="tl-event">LVNV $683 collection settled + deleted</div>
-          <div class="tl-score">Projected: +30–50 pts → ~610–630</div>
-        </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div>
-          <div class="tl-month">SEPT 2026</div>
-          <div class="tl-event">Affirm $512 charge-off settled (Experian)</div>
-          <div class="tl-score">Projected: +10–15 pts → ~620–645</div>
-        </div>
-      </div>
+      <div class="tl-item"><div class="tl-dot now"></div><div><div class="tl-month">MAY 26 NOW</div><div class="tl-event">Starting line: 563 FICO</div><div class="tl-score">3 charge-offs, 1 collection, 46% utilization on Avant</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div><div class="tl-month">JUNE 5</div><div class="tl-event">Avant paid to $30 → utilization 10%</div><div class="tl-score">Projected: +15–20 pts → ~580</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div><div class="tl-month">JULY 2026</div><div class="tl-event">LVNV $683 collection settled + deleted</div><div class="tl-score">Projected: +30–50 pts → ~610–630</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div><div class="tl-month">SEPT 2026</div><div class="tl-event">Affirm $512 charge-off settled (Experian)</div><div class="tl-score">Projected: +10–15 pts → ~620–645</div></div></div>
     </div>
     <div class="timeline">
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div>
-          <div class="tl-month">OCT 2026</div>
-          <div class="tl-event">Capital One $1,814 settled + deleted</div>
-          <div class="tl-score">Projected: +20–35 pts → ~640–665</div>
-        </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div>
-          <div class="tl-month">NOV 2026</div>
-          <div class="tl-event">Apply for second credit card (secured)</div>
-          <div class="tl-score">Thin file problem solved · more credit history</div>
-        </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div>
-          <div class="tl-month">DEC 2026</div>
-          <div class="tl-event">Discover $3,468 settlement negotiation</div>
-          <div class="tl-score">Offer $800–1,200. Get deletion. Biggest jump of the year.</div>
-        </div>
-      </div>
-      <div class="tl-item">
-        <div class="tl-dot"></div>
-        <div>
-          <div class="tl-month">JUN 2027</div>
-          <div class="tl-event">Target: 680+ FICO</div>
-          <div class="tl-score" style="color:var(--green);font-weight:700">Car refinance eligible · Apartment rental · Starter card with real limits</div>
-        </div>
-      </div>
+      <div class="tl-item"><div class="tl-dot"></div><div><div class="tl-month">OCT 2026</div><div class="tl-event">Capital One $1,814 settled + deleted</div><div class="tl-score">Projected: +20–35 pts → ~640–665</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div><div class="tl-month">NOV 2026</div><div class="tl-event">Apply for second credit card (secured)</div><div class="tl-score">Thin file problem solved · more credit history</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div><div class="tl-month">DEC 2026</div><div class="tl-event">Discover $3,468 settlement negotiation</div><div class="tl-score">Offer $800–1,200. Get deletion. Biggest jump of the year.</div></div></div>
+      <div class="tl-item"><div class="tl-dot"></div><div><div class="tl-month">JUN 2027</div><div class="tl-event">Target: 680+ FICO</div><div class="tl-score" style="color:var(--green);font-weight:700">Car refinance · Apartment rental · Real credit card</div></div></div>
     </div>
   </div>
 </div>
 
-<!-- SUBSCRIPTION CUTS -->
 <div class="section-title">Subscriptions — Cut Now, Not Later</div>
 <div class="card card-full red-card">
   <div class="card-title red">$197/Month Being Burned — Recoverable This Week</div>
   <div class="grid-2">
     <div>
-      <div class="cut-item">
-        <div>
-          <div class="cut-name">Disney Plus — Duplicate</div>
-          <div class="cut-sub">2 subscriptions active ($74.66/mo) — cancel one immediately</div>
-        </div>
-        <div class="cut-save">+$37/mo</div>
-      </div>
-      <div class="cut-item">
-        <div>
-          <div class="cut-name">IdentityIQ ($26.86/mo)</div>
-          <div class="cut-sub">Cancel — use Credit Karma (free) or AnnualCreditReport.com instead</div>
-        </div>
-        <div class="cut-save">+$27/mo</div>
-      </div>
-      <div class="cut-item">
-        <div>
-          <div class="cut-name">PayPal Pay in 4</div>
-          <div class="cut-sub">Stop using immediately — this is debt, not a payment tool</div>
-        </div>
-        <div class="cut-save">+$134/mo</div>
-      </div>
+      <div class="cut-item"><div><div class="cut-name">Disney Plus — Duplicate</div><div class="cut-sub">2 subscriptions active ($74.66/mo) — cancel one immediately</div></div><div class="cut-save">+$37/mo</div></div>
+      <div class="cut-item"><div><div class="cut-name">IdentityIQ ($26.86/mo)</div><div class="cut-sub">Cancel — use Credit Karma (free) instead</div></div><div class="cut-save">+$27/mo</div></div>
+      <div class="cut-item"><div><div class="cut-name">PayPal Pay in 4</div><div class="cut-sub">Stop using immediately — this is debt, not a payment tool</div></div><div class="cut-save">+$134/mo</div></div>
     </div>
     <div>
       <div style="background:rgba(34,197,94,0.08);border:1px solid rgba(34,197,94,0.2);border-radius:10px;padding:20px;text-align:center">
         <div style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--green);margin-bottom:12px">Monthly Savings Recovered</div>
         <div style="font-size:48px;font-weight:900;color:var(--green);line-height:1">$198</div>
         <div style="font-size:12px;color:var(--grey);margin-top:6px">per month · $2,376 per year</div>
-        <div style="font-size:13px;color:var(--white);margin-top:16px;font-weight:600">Three cancellations.<br>That's it. Done in 15 minutes.</div>
+        <div style="font-size:13px;color:var(--white);margin-top:16px;font-weight:600">Three cancellations.<br>Done in 15 minutes.</div>
       </div>
       <div style="margin-top:12px;padding:12px;background:rgba(239,68,68,0.06);border-radius:8px;font-size:12px;color:var(--grey)">
-        <strong style="color:var(--red)">Stop DailyPay advances.</strong> The $300 buffer you build on June 5 is the exit. Once you have $300 sitting in the account and don't touch it, you never need to advance wages again.
+        <strong style="color:var(--red)">Stop DailyPay advances.</strong> The $300 buffer you build on June 5 is the exit. Once you have $300 sitting untouched, you never need to advance wages again.
       </div>
     </div>
   </div>
 </div>
 
-<!-- SIDE HUSTLES -->
 <div class="section-title">Side Hustle Plan — Realistic Income Stacks</div>
 <div class="grid-2">
   <div class="card green-card">
     <div class="card-title green">Start This Week</div>
     <div class="hustle-card">
       <div class="hustle-header">
-        <div>
-          <div class="hustle-name">DoorDash / Instacart</div>
-          <div style="font-size:11px;color:var(--grey);margin-top:2px">Miami demand is high · You have a car · Start in 48 hours</div>
-        </div>
+        <div><div class="hustle-name">DoorDash / Instacart</div><div style="font-size:11px;color:var(--grey);margin-top:2px">Miami demand is high · You have a car · Start in 48 hours</div></div>
         <div class="hustle-earn">$400–700/mo</div>
       </div>
       <div class="hustle-detail">
-        Sign up on app, pass background check (1–2 days), drive evenings and weekends. Miami pays $18–22/hour including tips. 10–15 hours/week around your current job = serious extra cash.<br><br>
-        <strong style="color:var(--red)">BEFORE YOU DELIVER:</strong> Call Responsive Auto FL and ask if your current policy covers delivery/gig work. Most don't. A rider costs $20–40/month. Get covered before the first drop.
+        Sign up on app, pass background check (1–2 days), drive evenings and weekends. Miami pays $18–22/hour including tips. 10–15 hours/week = serious extra cash.<br><br>
+        <strong style="color:var(--red)">BEFORE YOU DELIVER:</strong> Call Responsive Auto FL — confirm your policy covers delivery/gig work. A rider costs $20–40/month.
       </div>
       <span class="hustle-start hs-now">Start This Week</span>
     </div>
@@ -961,35 +802,25 @@
     <div class="card-title">Build in 30 Days</div>
     <div class="hustle-card">
       <div class="hustle-header">
-        <div>
-          <div class="hustle-name">Mobile Car Detailing</div>
-          <div style="font-size:11px;color:var(--grey);margin-top:2px">You work at a parking lot · Clients are already right in front of you</div>
-        </div>
+        <div><div class="hustle-name">Mobile Car Detailing</div><div style="font-size:11px;color:var(--grey);margin-top:2px">You work at a parking lot · Clients are right in front of you</div></div>
         <div class="hustle-earn">$400–600/mo</div>
       </div>
       <div class="hustle-detail">
-        $150 startup: detail bucket, foam cannon, microfiber towels, interior vacuum. Charge $75–125 for full detail. Your coworkers and the car owners you see at work are your first clients. No marketing needed — business card + word of mouth.<br><br>
-        Higher margin than delivery and builds a real skill. Saturdays = $300–400 doing 3 cars.
+        $150 startup: detail bucket, foam cannon, microfiber towels, vacuum. Charge $75–125/detail. Your coworkers are your first clients. Saturdays = $300–400 doing 3 cars.
       </div>
       <span class="hustle-start hs-soon">30 Days Out</span>
     </div>
     <div class="hustle-card" style="border-color:rgba(136,153,187,0.2)">
       <div class="hustle-header">
-        <div>
-          <div class="hustle-name">KlausMNQ Futures Bot</div>
-          <div style="font-size:11px;color:var(--grey);margin-top:2px">Alejandro's trading system — prop firm evaluation required</div>
-        </div>
+        <div><div class="hustle-name">KlausMNQ Futures Bot</div><div style="font-size:11px;color:var(--grey);margin-top:2px">Alejandro's trading system — prop firm eval required</div></div>
         <div class="hustle-earn" style="color:var(--grey)">Not Yet</div>
       </div>
-      <div class="hustle-detail">
-        This is a Year 2 move. The bot is still in simulation (177 trades, $35k sim P&L). Going live requires a prop firm eval account ($100–150/month), passing a performance test, and tuning risk settings. You don't have that capital or margin for error yet. Come back to this once your score is 640+ and you have $1k in savings sitting untouched.
-      </div>
+      <div class="hustle-detail">Year 2 move. Come back once your score is 640+ and you have $1k untouched.</div>
       <span class="hustle-start hs-later">After Stability</span>
     </div>
   </div>
 </div>
 
-<!-- PHONE SCRIPTS -->
 <div class="section-title">Phone Calls — Make These In This Order</div>
 <div class="card card-full">
   <div class="card-title">Scripts — Say These Exact Words</div>
@@ -1015,68 +846,33 @@
       <div class="phone-box">
         <div class="phone-label">Call #4 — November / December</div>
         <div class="phone-number">Discover · (800) 347-2683</div>
-        <div class="phone-script">"I'm calling about my charged-off account ending in XXXXXX. The balance is $3,468. I'd like to resolve this. I can offer $900 as a full and final settlement in exchange for deletion from all three credit bureaus. I need the agreement in writing before payment. Who can help me with that?"</div>
+        <div class="phone-script">"I'm calling about my charged-off account ending in XXXXXX. The balance is $3,468. I can offer $900 as a full and final settlement in exchange for deletion from all three credit bureaus. I need the agreement in writing before payment."</div>
       </div>
     </div>
   </div>
 </div>
 
-<!-- NON-NEGOTIABLES -->
 <div class="section-title">Hard Rules</div>
 <div class="card card-full">
   <div class="card-title">Non-Negotiables — Violating These Sets Back the Plan by Months</div>
   <ul class="checklist">
-    <li>
-      <div class="box"></div>
-      <span><strong>Never miss an Ally auto loan payment.</strong> It's a joint account — missing payments damages both credit files. Set auto-pay if not already set.</span>
-      <span class="tag tag-urgent">Critical</span>
-    </li>
-    <li>
-      <div class="box"></div>
-      <span><strong>Never miss the Avant card minimum.</strong> It's your only open revolving account. One missed payment gets reported within 30 days and nukes the score progress.</span>
-      <span class="tag tag-urgent">Critical</span>
-    </li>
-    <li>
-      <div class="box"></div>
-      <span><strong>Keep $300 minimum in Chase account at all times.</strong> This is what kills the DailyPay cycle. Build it on June 5, protect it forever.</span>
-      <span class="tag tag-urgent">Rule #1</span>
-    </li>
-    <li>
-      <div class="box"></div>
-      <span><strong>Never pay a settlement without a written agreement first.</strong> Verbal promises from collectors mean nothing. Get it in writing, then send the payment.</span>
-      <span class="tag tag-week">Legal</span>
-    </li>
-    <li>
-      <div class="box"></div>
-      <span><strong>Stop using cash for everything.</strong> The $1,000 ATM withdrawal was 41% of one month's spending with zero paper trail. Cash spending cannot be budgeted. Use your debit card and track every transaction.</span>
-      <span class="tag tag-week">Behavior</span>
-    </li>
-    <li>
-      <div class="box"></div>
-      <span><strong>Dispute the US Parking employer info</strong> on your credit report — you no longer work there. File free disputes at TransUnion.com and Equifax.com to update your employment record.</span>
-      <span class="tag tag-green">Quick Fix</span>
-    </li>
-    <li>
-      <div class="box"></div>
-      <span>Do NOT apply for new credit until the LVNV collection is resolved. Hard inquiries on a thin-file score with active collections hurt more than they help. Wait until July minimum.</span>
-      <span class="tag tag-week">Credit</span>
-    </li>
-    <li>
-      <div class="box"></div>
-      <span>The student loans are your silent friend — they report as "current" and "deferred." Never make early payments on them while charge-offs exist. Charge-offs first, always.</span>
-      <span class="tag tag-green">Strategy</span>
-    </li>
+    <li><div class="box"></div><span><strong>Never miss an Ally auto loan payment.</strong> It's a joint account — missing payments damages both credit files. Set auto-pay if not already set.</span><span class="tag tag-urgent">Critical</span></li>
+    <li><div class="box"></div><span><strong>Never miss the Avant card minimum.</strong> It's your only open revolving account. One missed payment gets reported within 30 days and nukes the score progress.</span><span class="tag tag-urgent">Critical</span></li>
+    <li><div class="box"></div><span><strong>Keep $300 minimum in Chase account at all times.</strong> This is what kills the DailyPay cycle. Build it on June 5, protect it forever.</span><span class="tag tag-urgent">Rule #1</span></li>
+    <li><div class="box"></div><span><strong>Never pay a settlement without a written agreement first.</strong> Verbal promises from collectors mean nothing. Get it in writing, then send the payment.</span><span class="tag tag-week">Legal</span></li>
+    <li><div class="box"></div><span><strong>Stop using cash for everything.</strong> The $1,000 ATM withdrawal was 41% of one month's spending with zero paper trail. Use your debit card — track every transaction.</span><span class="tag tag-week">Behavior</span></li>
+    <li><div class="box"></div><span><strong>Dispute the US Parking employer info</strong> on your credit report. File free disputes at TransUnion.com and Equifax.com.</span><span class="tag tag-green">Quick Fix</span></li>
+    <li><div class="box"></div><span>Do NOT apply for new credit until the LVNV collection is resolved. Hard inquiries hurt more on a thin-file score. Wait until July minimum.</span><span class="tag tag-week">Credit</span></li>
+    <li><div class="box"></div><span>The student loans are your silent friend — they report as "current" and "deferred." Never make early payments while charge-offs exist.</span><span class="tag tag-green">Strategy</span></li>
   </ul>
 </div>
 
-<!-- METRIC -->
 <div class="section-title">The One Metric That Tells You If the Plan Is Working</div>
 <div class="metric-block">
   <div class="metric-question">Every payday, ask one question:<br><em>"Did my bank balance go up or down since last paycheck?"</em></div>
   <div class="metric-sub">If it went up — you're winning. If it went down — something broke. Find it before the next check arrives.<br>No spreadsheet required. Just that one number, twice a month.</div>
 </div>
 
-<!-- ENDGAME -->
 <div class="endgame">
   <div class="endgame-title">The End State — 18 Months From Now</div>
   <div class="endgame-number">680+</div>
@@ -1088,10 +884,9 @@
   </div>
 </div>
 
-</div><!-- /page -->
+</div>
 
 <script>
-  // Countdown to June 10
   function updateCountdown() {
     const target = new Date('2026-06-10T00:00:00');
     const now = new Date();
